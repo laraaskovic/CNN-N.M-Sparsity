@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Model artifacts
+checkpoints/
+*.pth
+*.pt
+
+# Generated test vectors
+vectors/
+
+# Simulation output
+sim_build/
+*.vcd
+*.fst
+results.xml
+obj_dir/
+
+# Vivado
+*.jou
+*.log
+*.str
+.Xil/
+syn/build/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.xpr
+
+# OS
+.DS_Store
